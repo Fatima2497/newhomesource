@@ -1,0 +1,7 @@
+.placeimg{
+    background: url('../assets/image/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}

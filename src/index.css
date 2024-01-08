@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins',sans-serif;
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+
+  @layer components{
+    .footer{
+        @apply mt-auto
+    }
+    
+   
+}
