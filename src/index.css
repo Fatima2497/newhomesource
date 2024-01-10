@@ -2,18 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: 'Poppins',sans-serif;
-    width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+@layer utilities {
+  .footer {
+    @apply mt-auto;
   }
-
-  @layer components{
-    .footer{
-        @apply mt-auto
-    }
-    
-   
+  .heading {
+    @apply text-2xl font-bold text-backgroundColor leading-9 font-notoFont tracking-tight capitalize mt-5;
+  }
+  .content {
+    @apply text-xs text-blackColor text-justify leading-5 font-bodyFont mb-3;
+  }
+  .subheading {
+    @apply text-sm text-black font-bold;
+  }
+  .span {
+    @apply text-backgroundColor font-bold;
+  }
+  .list {
+    @apply ps-0 ms-0 me-0;
+  }
+  .listitem {
+    @apply grid grid-cols-2;
+  }
+  .listcontentbold {
+    @apply text-blackColor font-bold text-xs;
+  }
 }

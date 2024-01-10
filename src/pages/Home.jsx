@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Meta title="Newhomesource" />
-      <main className="w-full mt-24">
+      <main className="w-full">
         <section className="placeimg h-98 w-full p-4">
           <div className=" flex justify-center items-center ml-[10%] mt-[60%] md:mt-[20%] w-[80%]">
             <form action="" className="w-full">
@@ -77,7 +77,7 @@ const Home = () => {
             <BlogCard image={cardpic3} />
           </div>
         </section>
-        <section className="w-full  bg-goldColor">
+        <section className="w-full mb-24  bg-goldColor">
           <form
             action=""
             className="mt-10 w-full bg-backgroundColor  p-3"
@@ -87,7 +87,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Enter FirstName"
-                className="bg-backgroundColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
+                className="bg-backgroundColor text-whiteColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
               />
             </div>
             <div className="mb-3 flex flex-col gap-2">
@@ -95,7 +95,7 @@ const Home = () => {
               <input
                 type="text"
                 placeholder="Enter LastName"
-                className="bg-backgroundColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
+                className="bg-backgroundColor text-whiteColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
               />
             </div>
             <div className="mb-3 flex flex-col gap-2">
@@ -103,7 +103,7 @@ const Home = () => {
               <input
                 type="email"
                 placeholder="Enter Email"
-                className="bg-backgroundColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
+                className="bg-backgroundColor text-whiteColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
               />
             </div>
             <div className="mb-3 flex flex-col gap-2">
@@ -111,16 +111,16 @@ const Home = () => {
               <input
                 type="phone"
                 placeholder="Enter Phone"
-                className="bg-backgroundColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
+                className="bg-backgroundColor text-whiteColor placeholder:text-whiteColor placeholder:text-xs outline-none border-b w-[80%]"
               />
             </div>
             <div className="mb-3 flex justify-start items-center gap-5">
               <div>
-                <input type="radio" />
+                <input type="radio"  />
                 <Label label="No" />
               </div>
               <div>
-                <input type="radio" />
+                <input type="radio"  />
                 <Label label="Yes" />
               </div>
             </div>
@@ -128,11 +128,12 @@ const Home = () => {
               <input
                 type="submit"
                 value="Submit"
-                className="bg-whiteColor text-backgroundColor px-2 py-1 rounded-full hover:text-whiteColor hover:bg-goldColor"
+                className="bg-whiteColor text-goldColor px-2 py-1 rounded-full hover:text-whiteColor hover:bg-goldColor"
               />
             </div>
           </form>
         </section>
+       
       </main>
     </>
   );

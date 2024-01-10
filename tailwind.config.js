@@ -6,17 +6,19 @@ export default {
   ],
   theme: {
     maxWidth:{
-      container:"1440px",
-      contentcontainer: "1140px",
-      containerSmall: "640px",
-      containerxs: "768px"
+      container:"1140px",
+      containerLarge: "1140px",
+      contentcontainer: "720px",
+      containerSmall: "540px",
+      containerxs: "100%"
     },
     extend: {
       screens:{
         sm: "468px",
         md: "768px",
         lg: "1024px",
-        lgl: "1280px"
+        lgl: "1054px",
+        xl: "1240px"
       },
       backgroundColor:{
         "radial-gradient" : "(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%)",
@@ -32,6 +34,7 @@ export default {
       },
       fontFamily: {
         bodyFont: ['Poppins', "sans-serif"],
+        notoFont: ['Noto Sans', "sans-serif"],
       }
     },
   },

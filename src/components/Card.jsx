@@ -1,6 +1,7 @@
 
 import React from "react";
-
+import { Link } from "react-router-dom";
+// import SingleProject from ''
 
 const Card = ({image}) => {
   return (
@@ -30,7 +31,7 @@ const Card = ({image}) => {
                <p className="text-whiteColor text-base">Building Type: Condo</p>
                </div>
                <div className="mt-2 px-2">
-                <button className="bg-whiteColor px-2 text-backgroundColor py-2 rounded">Register Now</button>
+                <Link to="/SingleProject" className="bg-whiteColor px-2 text-backgroundColor py-2 rounded">Register Now</Link>
                </div>
             
         </div>

@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full h-24 bg-backgroundColor fixed top-0 z-10 px-4 py-5">
+      <header className="w-full h-20 bg-backgroundColor sticky top-0 z-10 px-4 py-5">
         <nav className="containerSmall px-3 py-2 hidden md:flex md:justify-between md:items-center">
           <div>
             <h3 className="text-whiteColor text-sm text-nowrap">
@@ -31,17 +31,17 @@ const Header = () => {
           <div className="flex justify-center items-center gap-5">
             <NavLink
               to="/"
-              className="text-whiteColor font-bodyFont text-sm"
+              className="text-whiteColor font-notoFont text-sm"
             >
               Preconstruction
             </NavLink>
-            <NavLink className="text-whiteColor font-bodyFont text-sm">
+            <NavLink to="/assignment" className="text-whiteColor font-notoFont text-sm">
               Assignment
             </NavLink>
-            <NavLink className="text-whiteColor font-bodyFont text-sm">
+            <NavLink to="/blog" className="text-whiteColor font-notoFont text-sm">
               Blog
             </NavLink>
-            <NavLink className="text-whiteColor font-bodyFont text-sm">
+            <NavLink to="/resource" className="text-whiteColor font-notoFont text-sm">
               Resources
             </NavLink>
             <button

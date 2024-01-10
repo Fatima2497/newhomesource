@@ -3,7 +3,7 @@ import './component.css'
 
 const Footer = () => {
   return (
-    <div className='footer mt-10 px-4 py-5 bg-backgroundColor'>footer</div>
+    <footer className=' w-[100%] footer px-4 py-12 bg-backgroundColor'>footer</footer>
   )
 }
 
